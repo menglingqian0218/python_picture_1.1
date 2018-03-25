@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# Date: 2017/10/3
 
 import requests,time,os
 from lxml import html
