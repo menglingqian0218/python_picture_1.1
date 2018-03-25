@@ -1,0 +1,10 @@
+body {
+    padding-top: 70px;
+}
+
+.my-table-add,
+.my-table-search {
+    padding: 0 15px;
+    margin-top: 15px;
+    display: inline-block;
+}

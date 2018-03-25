@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>The current time is {{ t }} </h4>
+{{ li.2 }}
+{{ li.1 }}
+{{ dic.name }}
+{{ dic.age }}
+<hr>
+{% for i in li %}
+   <p>{{ i }}</p>
+{% endfor %}
+
+
+{% if li.2 < 23 %}
+    <p>大于</p>
+ {% else %}
+    <p>小于</p>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>懒加载示例</title>
+</head>
+<body>
+<div><img class="lazy" data-original="img/1.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+<div><img class="lazy" data-original="img/2.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+<div><img class="lazy" data-original="img/3.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+<div><img class="lazy" data-original="img/4.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+<div><img class="lazy" data-original="img/5.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+<div><img class="lazy" data-original="img/6.jpg" src="img/0.jpg" width="600px" height="400px"></div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.lazyload.min.js"></script>
+<script>
+    $("img.lazy").lazyload({
+         event : "click"
+    });
+</script>
+</body>
+</html>
